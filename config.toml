@@ -1,0 +1,45 @@
+baseURL = "https://7gsstudio.cc/"
+languageCode = "ja-jp"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+title = "ななしろメモ"
+themesDir = "themes/"
+theme = "hugo-theme-m10c"
+
+[pagination]
+  pagerSize = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "ななしろ"
+  description = "フリーランスエンジニアななしろの業務メモ"
+  avatar = "images/icon.png"
+  menu_item_separator = " - "
+  dateFormat = "2006/01/02"
+  [[params.social]]
+    icon = "brand-github"
+    name = "Github"
+    url = "https://github.com/7shiro"
+
+  [params.style]
+  darkestColor = "#ffffff"   # 背景（最も明るい）
+  darkColor = "#f0f0f0"      # セクションの区切りなどに
+  lightColor = "#444444"     # 本文の色
+  lightestColor = "#000000"  # 強調テキストや見出し
+  primaryColor = "#007acc"   # アクセント（リンクなど）
